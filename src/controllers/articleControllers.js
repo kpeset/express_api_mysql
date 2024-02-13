@@ -60,7 +60,7 @@ const updateArticle = (req, res) => {
   database
     .query(
       "UPDATE article SET title=?, content=?, creation_datetime = NOW() WHERE id = ?",
-      [req.body.title, req.body.content, id]
+      [body.title, body.content, id]
     )
     .then((result) => {
       res.send("Article modifié avec succèes");
