@@ -1,7 +1,7 @@
 - Création d'un serveur express X
 - Création d'une BDD X
 - Connexion à la BDD X
-- Création d'une route
-- Création d'un controller
-- Création d'une fonction dans le controller
-etc...
+- Création d'une route x
+- Création d'un controller x
+- Création d'une fonction dans le controller x
+- Créer de la data
